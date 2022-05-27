@@ -12,7 +12,7 @@ function NavLinks(props) {
           props.isMobile && props.closeMobileMenu();
         }}
       >
-        home
+        Home
       </NavLink>
       <NavLink
         to="/about"
@@ -21,7 +21,7 @@ function NavLinks(props) {
           props.isMobile && props.closeMobileMenu();
         }}
       >
-        about
+        About
       </NavLink>
       <NavLink
         to="/portfolio"
@@ -30,16 +30,7 @@ function NavLinks(props) {
           props.isMobile && props.closeMobileMenu();
         }}
       >
-        portfolio
-      </NavLink>
-      <NavLink
-        to="/contact"
-        activeclassname="active"
-        onClick={() => {
-          props.isMobile && props.closeMobileMenu();
-        }}
-      >
-        contact
+        Projects
       </NavLink>
       <a
         href="https://docs.google.com/document/d/1UKTs6GrN8YXVVdM-F_MoXhKxkkvzg0cQWURy1-S-9yk/edit?usp=sharing"
@@ -48,7 +39,7 @@ function NavLinks(props) {
           props.isMobile && props.closeMobileMenu();
         }}
       >
-        resume
+        Resume
       </a>
     </nav>
   );
