@@ -1,6 +1,12 @@
 import React from "react";
 import "./nav.css";
 import { NavLink } from "react-router-dom";
+import {
+  HomeIcon,
+  FingerPrintIcon,
+  CodeIcon,
+  DocumentTextIcon,
+} from "@heroicons/react/outline";
 
 function NavLinks(props) {
   return (
@@ -12,7 +18,8 @@ function NavLinks(props) {
           props.isMobile && props.closeMobileMenu();
         }}
       >
-        Home
+        <HomeIcon />
+        <span className="nav-text">Home</span>
       </NavLink>
       <NavLink
         to="/about"
@@ -21,7 +28,8 @@ function NavLinks(props) {
           props.isMobile && props.closeMobileMenu();
         }}
       >
-        About
+        <FingerPrintIcon />
+        <span className="nav-text">About</span>
       </NavLink>
       <NavLink
         to="/portfolio"
@@ -30,7 +38,8 @@ function NavLinks(props) {
           props.isMobile && props.closeMobileMenu();
         }}
       >
-        Projects
+        <CodeIcon />
+        <span className="nav-text">Projects</span>
       </NavLink>
       <a
         href="https://docs.google.com/document/d/1UKTs6GrN8YXVVdM-F_MoXhKxkkvzg0cQWURy1-S-9yk/edit?usp=sharing"
@@ -39,7 +48,8 @@ function NavLinks(props) {
           props.isMobile && props.closeMobileMenu();
         }}
       >
-        Resume
+        <DocumentTextIcon />
+        <span className="nav-text">Resume</span>
       </a>
     </nav>
   );
