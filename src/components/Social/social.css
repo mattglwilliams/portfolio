@@ -1,0 +1,31 @@
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 2em;
+  padding-left: 2em;
+}
+
+.contact-links > a {
+  margin-top: 2em;
+  font-size: 1.5em;
+}
+
+.contact-links > a:hover {
+  color: #e85c46;
+}
+
+.github-icon {
+  color: #f0ece7;
+}
+
+.linkedin-icon {
+  color: #0e76a8;
+}
+
+.envelope-icon {
+  color: #f0ece7;
+}
