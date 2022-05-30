@@ -24,12 +24,12 @@ header > nav > a {
 
 header > nav > a:hover {
   text-decoration: none;
-  color: #e85c46;
+  background-color: #375564;
 }
 
 .active {
   text-decoration: none;
-  color: #e85c46;
+  background-color: #375564;
 }
 
 .mobile-nav {

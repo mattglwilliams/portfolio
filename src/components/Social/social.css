@@ -6,16 +6,31 @@
   align-items: center;
   position: fixed;
   bottom: 2em;
-  padding-left: 2em;
+  padding-left: 1.3em;
 }
 
 .contact-links > a {
   margin-top: 2em;
   font-size: 1.5em;
+  width: 60px;
+  height: 60px;
+  line-height: 62px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: 300ms;
 }
 
 .contact-links > a:hover {
-  color: #e85c46;
+  background-color: #fff;
+  color: #224859;
+}
+
+.contact-links > a:hover:after {
+  opacity: 1;
+  transform: scale(1.15);
 }
 
 .github-icon {
