@@ -89,3 +89,20 @@
     transform: translate(0);
   }
 }
+
+@media only screen and (max-width: 640px) {
+  .banner {
+    align-items: flex-start;
+    padding-top: 7em;
+    margin-left: 2em;
+    height: 0;
+  }
+
+  .banner-content > h1 {
+    font-size: 5.3em;
+  }
+
+  .banner-content > .job {
+    font-size: 1.75em;
+  }
+}

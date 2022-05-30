@@ -44,3 +44,25 @@
 .envelope-icon {
   color: #f0ece7;
 }
+
+@media only screen and (max-width: 768px) {
+  .contact-links {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    bottom: auto;
+  }
+
+  .contact-links > a {
+    margin-top: 0;
+    font-size: 2em;
+    padding: 0 1em 0 1em;
+    width: 20px;
+    height: 20px;
+    border-radius: 0;
+    line-height: 0;
+    background-color: #224859;
+  }
+}
