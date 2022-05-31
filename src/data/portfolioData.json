@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Instagrub",
+    "description": "A recipe sharing application for home chefs and food lovers.",
+    "github": "https://github.com/mattglwilliams/instagrub",
+    "deployment": "https://instagrub2022.herokuapp.com/",
+    "tech": "Express.js, Node.js, Sequelize & MySQL, Multer, Handlebars"
+  },
+  {
+    "name": "MVC Tech Blog",
+    "description": "A blog sharing application for all things tech.",
+    "github": "https://github.com/mattglwilliams/mvc-tech-blog",
+    "deployment": "https://matt-mvc-tech-blog.herokuapp.com/",
+    "tech": "Express.js, Node.js, Sequelize & MySQL, Handlebars"
+  },
+  {
+    "name": "Weather App",
+    "description": "A weather forecast app for both the current day and the following 5 days.",
+    "github": "https://github.com/mattglwilliams/weather-app",
+    "deployment": "https://mattglwilliams.github.io/weather-app/",
+    "tech": "HTML, CSS, JavaScript, Moment.js, OpenWeatherAPI"
+  },
+  {
+    "name": "The Movie Book Generator",
+    "description": "A recipe sharing application for home chefs and food lovers.",
+    "github": "https://github.com/mattglwilliams/the-movie-book-generator",
+    "deployment": "https://mattglwilliams.github.io/the-movie-book-generator/",
+    "tech": "Javascript, CSS, HTML, Tailwind, Bootstrap, Google Books API, tMBD APi, Streaming Availability API"
+  },
+  {
+    "name": "Social Network API",
+    "description": "An api for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.",
+    "github": "https://github.com/mattglwilliams/social-network-api",
+    "tech": "Express.js, Node.js, Mongoose"
+  },
+  {
+    "name": "Team Profile Generator",
+    "description": "A CLI application that generates a professional team profile page.",
+    "github": "https://github.com/mattglwilliams/team-profile-generator",
+    "tech": "Node.js, JavaScript, HTML, CSS"
+  }
+]
