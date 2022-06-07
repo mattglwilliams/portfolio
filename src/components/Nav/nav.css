@@ -20,17 +20,16 @@ header > nav > a {
   color: #f0ece7;
   text-decoration: none;
   padding: 1em 0.75em 1em 0.75em;
-  cursor: pointer;
 }
 
 header > nav > a:hover {
   text-decoration: none;
-  background-color: #375564;
+  color: #e85c46;
 }
 
 .active {
   text-decoration: none;
-  background-color: #375564;
+  color: #e85c46;
 }
 
 .mobile-nav {
@@ -57,7 +56,6 @@ header > nav > a > svg {
   .mobile-nav {
     display: flex;
     z-index: 3;
-    transition: 350ms ease-in-out;
   }
 
   .mobile-nav > nav {
@@ -88,18 +86,7 @@ header > nav > a > svg {
     font-size: 40px;
     color: #f0ece7;
   }
-
-  .mobile-nav > nav {
-    position: absolute;
-    left: 0;
-    top: 100px;
-  }
-
   .mobile-nav > close-icon {
     color: #f0ece7;
-  }
-
-  .mobile-nav > nav > a {
-    padding: 2%;
   }
 }
