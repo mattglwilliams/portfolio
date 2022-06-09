@@ -8,7 +8,7 @@ This is my personal portfolio, built using React - https://mattglwilliams.github
 - 🧐 On the lookout for a full stack role
 - 📚 Currently learning React, MongoDB and GrapgQL
 - 📫 How to reach me: mattwilliamsdev@gmail.com
-- ⚡ Next on the agenda: AWS, Next.js, game development
+- ⚡ Next on the agenda: Next.js, Material UI, game development
 
 </br>
 
