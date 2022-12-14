@@ -5,11 +5,7 @@ This is my personal portfolio, built using React - https://mattglwilliams.github
 ### About Me 💥
 
 - 🎓 I’m a recent graduate from the University of Manchester's Full Stack Web Development Coding Bootcamp
-- 🧐 On the lookout for a full stack role
-- 📚 Currently learning React, MongoDB and GrapgQL
+- 👨🏻‍💻 Currently working as a Frontend Developer at JD Sports
+- 📚 I’m currently learning MUI, Vue.js, Redux and GraphQL
+- ⚡ In the future, I am interested in learning game development
 - 📫 How to reach me: mattwilliamsdev@gmail.com
-- ⚡ Next on the agenda: Next.js, Material UI, game development
-
-</br>
-
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=mattglwilliams&theme=algolia)](https://github.com/mattglwilliams/github-readme-stats)
