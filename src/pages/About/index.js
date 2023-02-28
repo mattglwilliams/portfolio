@@ -19,16 +19,14 @@ function About() {
         <div className="about-content">
           <h2 className="about-heading">about</h2>
           <p>
-            I am currently a web development project manager based in
-            Manchester. I recently graduated from the University of Manchester's
-            coding bootcamp and am looking for a full stack web developer
-            opportunity. While on the course, I picked up a host of skills,
-            tools and languages, some of which you can see below{" "}
-            {`(more info on my resume)`}. I am currently working on the{" "}
-            <span className="future-research">MERN</span> stack and am
-            interested in looking into{" "}
-            <span className="future-research">AWS</span>,{" "}
-            <span className="future-research">Next.js</span> and{" "}
+            I am currently working as a Front End Developer at JD Sports. In May
+            2022 graduated from the University of Manchester's coding bootcamp
+            where I picked up a host of skills, tools and languages, some of
+            which you can see below {`(more info on my resume)`}. I am currently
+            working on the <span className="future-research">MERN</span> stack
+            and am interested in looking into{" "}
+            <span className="future-research">Typescript</span>,{" "}
+            <span className="future-research">C# and .NET</span> and{" "}
             <span className="future-research">game development</span> in the
             near future.
           </p>
