@@ -12,7 +12,7 @@ function NavLinks(props) {
   return (
     <nav>
       <NavLink
-        to="/"
+        to="/portfolio"
         activeclassname="active"
         onClick={() => {
           props.isMobile && props.closeMobileMenu();
